@@ -10,7 +10,9 @@
 
     <form>
         <label for="newTask">New task</label>
-        <input type="text" name="newTask" id="newTask">
+        <input type="text" name="newTask" id="newTask" required>
+
+        <p id="error"></p>
 
         <br>
         <br>
@@ -23,13 +25,13 @@
         <br>
 
         <label>Set Task Due Date</label>
-        <input type="date" name="date" id="date">
+        <input type="date" name="date" id="date" required>
 
         <br>
         <br>
 
         <label>Set Task Due Time</label>
-        <input type="time" name="time" id="time">
+        <input type="time" name="time" id="time" required>
 
         <br>
         <br>
@@ -39,6 +41,8 @@
         
 
     </form>
+
+    <ul id="task"></ul>
 
 
 
