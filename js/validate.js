@@ -16,4 +16,6 @@ function newTask(){
     
 }
 
+//Calling the function
+
 newTask();
